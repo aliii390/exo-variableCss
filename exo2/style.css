@@ -23,6 +23,7 @@ body {
 
 :root{
   --bg-color : black;
+  --bg-black-filter: rgba(0, 0, 0, 0.3)
 }
 
 
@@ -30,11 +31,15 @@ body {
 header {
  
   background-color: var(--bg-color);
+  
 }
 
-.subtitle {
-  /* background-color: var(--bg-color); */
-}
+/* .subtitle {
+   background-color: var(--bg-color); 
+} */
+
+
+
 h1 {
   margin: 0;
   padding: 1rem;
@@ -42,6 +47,7 @@ h1 {
 }
 .subtitle {
   padding: 0.5rem 1rem;
+  background-color: var(--bg-black-filter);
 }
 main {
   flex: 1;

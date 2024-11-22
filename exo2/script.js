@@ -8,7 +8,8 @@ input.addEventListener("input", handleInput);
 
 
 function handleInput(event){
- root.style.setProperty('--bg-color', event.target.value);
+ root.style.setProperty('--bg-color',  event.target.value);
+ 
 
 }
 
